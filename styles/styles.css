@@ -44,3 +44,9 @@ footer {
     text-align: center;
 
 }
+
+#highlight {
+    text-decoration: underline;
+    background-color: beige;
+    padding: 1rem;
+}
