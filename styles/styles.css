@@ -1,14 +1,28 @@
+:root {
+    --heading-background-color: black;
+    --heading-text-color: white; 
+    --heading-font: "Times New Roman", serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.8);
+
+    --nav-background-color: darkblue;
+    --nav-text-color: white; 
+    --nav-font: "Times New Roman", serif;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--nav-background-color);
     padding: 10px;
+    
 }
 nav a {
-    color: white;
+    color: var(--nav-text-color);
     display: block;
     padding: 20px;
+    font: var(--nav-font);
 }
 h1 {
-    color: darkblue;
+    color: var(--heading-background-color);
 }
 main img {
     width: 150px;
@@ -27,8 +41,8 @@ main {
 aside {
     width: 15rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.8);
-    padding: 1rem;
+    border: var(--border);
+    padding: var(--padding);
     background-color: whitesmoke;
     color: rgb(16, 82, 82);
     text-align: justify;
@@ -48,5 +62,5 @@ footer {
 #highlight {
     text-decoration: underline;
     background-color: beige;
-    padding: 1rem;
+    padding: var(--padding);
 }
