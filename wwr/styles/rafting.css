@@ -18,7 +18,7 @@ body{
 }
 
 h1, h2 {
-    font-family: var(--text-font);
+    font-family: var(--heading-font);
     color: var(--accent2-color);
 }
 
@@ -82,6 +82,5 @@ h1, h2 {
 
 section:last-of-type img {
     display: block;
-    
 
 }
