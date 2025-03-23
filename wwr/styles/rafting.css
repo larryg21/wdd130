@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #020042;
+    --secondary-color: #0C75A1;
+    --accent1-color: #18CD39;
+    --accent2-color: #F17204;
+    --text-color: black;
+    --heading-font: 'Roboto', sans-serif;
+    --text-font: 'Roboto Slab', serif;
+    --padding: 20px;
+}
+
+body{
+    font-family: var(--text-font);
+    color: var(--text-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--padding);
+}
+
+h1, h2 {
+    font-family: var(--text-font);
+    color: var(--accent2-color);
+}
+
+
+.sociallinks img {
+    text-decoration: none;
+    width: 25px;
+    height: auto;
+    margin: 5px;
+    
+}
+
+.hero {
+    position: relative;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero article {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    right: 15%;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 10px;
+    width: 70%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    z-index: 2;    
+}
+
+.hero article img {
+    
+    float: right;
+    width: auto;
+    
+}
+
+.hero article p {
+    color: var(--text-color);
+}
+.sociallinks {
+    display: flex;
+}
+
+section:last-of-type img {
+    display: block;
+    
+
+}
